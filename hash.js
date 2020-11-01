@@ -22,6 +22,7 @@ const hash = mensaje => {
     for(let j = 0; j < 18; j++){
 
       for( let k = 0; k < 48; k++){
+        
         t = X[k] ^ S[t];
         X[k] = t;
       }
